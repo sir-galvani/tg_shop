@@ -1,0 +1,35 @@
+<head>
+    <link rel="icon" href="./imgs/cart.png" type="image/icon type">
+    <title>Boofer's Paradise !</title>
+	<link href="./css/style.css" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,500,600,700,800,900" rel="stylesheet">
+</head>
+
+<body style="background-color:#18181A;padding:0;margin:0;">
+<center>
+	<br>
+	<br>
+	<p style="color:white;font-weight:600;"><i>Welcome back @username</i></p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<img src="./imgs/cart.png" style="height:80px;"/>
+	<br>
+	<img src="./imgs/name.png" style="height:40px;"/>
+	<br>
+	<br>
+	<br>
+	<button style="border-width: 2px;width:120px;height:36px;background-color:#C55A11;border-color:#FFFFFF;border-radius:10px;cursor:pointer;font-size:15px;font-family:'Lato';font-weight:600;color:#FFFFFF;padding-left:10px;padding-right:10px;" onclick="redirect()">LAUNCH</button>
+
+</center>
+
+<script>
+	function redirect(){
+		window.location.href = 'account.php';
+	}
+</script>
+
+</body>
